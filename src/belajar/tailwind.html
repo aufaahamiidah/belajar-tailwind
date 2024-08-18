@@ -7,31 +7,282 @@
     <link href="/src/output.css" rel="stylesheet" />
   </head>
   <body>
-    <section class="container p-5">
-      <div class="container p-5 w-full">
-        <h1 class="text-xl font-bold">Transform</h1>
-        <div class="container flex my-5 gap-5">
+    <!-- layout -->
+    <section id="layout">
+      <div class="w-full bg-red-300 shadow-lg">
+        <div class="flex justify-center items-center p-5">
+          <h1 class="text-2xl font-bold">Layout</h1>
+        </div>
+      </div>
+      <div class="mx-auto my-5 flex justify-center gap-5">
+        <iframe class="rounded aspect-video" width="400" height="225" src="https://www.youtube.com/embed/F2qZWD0F7rM"></iframe>
+        <iframe class="rounded aspect-video" width="400" height="225" src="https://www.youtube.com/embed/F2qZWD0F7rM"></iframe>
+        <iframe class="rounded aspect-video" width="400" height="225" src="https://www.youtube.com/embed/F2qZWD0F7rM"></iframe>
+      </div>
+    </section>
+    <!-- layout end -->
+
+    <!-- flexbox -->
+    <section id="flexbox">
+      <div class="w-full bg-red-300 shadow-lg">
+        <div class="flex justify-center items-center p-5">
+          <h1 class="text-2xl font-bold">Flexbox</h1>
+        </div>
+      </div>
+      <div class="flex w-full flex-row bg-gray-100 p-4">
+        <div class="basis-1/4 bg-gray-300 p-4">01</div>
+        <div class="basis-1/4 bg-gray-400 p-4">02</div>
+        <div class="basis-1/2 bg-gray-500 p-4">03</div>
+      </div>
+      <div class="grid grid-cols-4 gap-4 bg-gray-100 p-4">
+        <div class="bg-gray-300 p-4">01</div>
+        <div class="bg-gray-400 p-4">02</div>
+        <div class="bg-gray-500 p-4">03</div>
+        <div class="bg-gray-600 p-4">04</div>
+        <div class="bg-gray-300 p-4">05</div>
+        <div class="bg-gray-400 p-4">06</div>
+        <div class="bg-gray-500 p-4">07</div>
+        <div class="bg-gray-600 p-4">08</div>
+        <div class="bg-gray-300 p-4">09</div>
+      </div>
+    </section>
+    <!-- flexbox end -->
+
+    <!-- borders -->
+    <section id="borders">
+      <div class="w-full bg-red-300 shadow-lg">
+        <div class="flex justify-center items-center p-5">
+          <h1 class="text-2xl font-bold">Borders</h1>
+        </div>
+      </div>
+      <div class="flex space-x-10 my-5 justify-center">
+        <div class="text-center">
+          <div class="w-24 h-24 bg-blue-500 rounded"></div>
+        </div>
+        <div class="text-center">
+          <div class="w-24 h-24 bg-blue-500 rounded-md"></div>
+        </div>
+        <div class="text-center">
+          <div class="w-24 h-24 bg-blue-500 rounded-lg"></div>
+        </div>
+        <div class="text-center">
+          <div class="w-24 h-24 bg-blue-500 rounded-full"></div>
+        </div>
+      </div>
+      <div class="flex space-x-10 justify-center my-5">
+        <div class="text-center">
+          <button class="px-4 py-2 border-2 border-blue-700 text-white bg-gray-400 border-solid">Button A</button>
+        </div>
+        <div class="text-center">
+          <button class="px-4 py-2 border-2 border-blue-700 text-white bg-gray-400 border-dashed">Button A</button>
+        </div>
+        <div class="text-center">
+          <button class="px-4 py-2 border-2 border-blue-700 text-white bg-gray-400 border-dotted">Button A</button>
+        </div>
+        <div class="text-center">
+          <button class="px-4 py-2 border-2 border-blue-700 text-white bg-gray-400 border-double">Button A</button>
+        </div>
+      </div>
+      <div class="flex space-x-10 justify-center my-5">
+        <div class="text-center">
+          <button class="px-4 py-2 text-white bg-gray-400 outline outline-2 outline-blue-500">Button A</button>
+        </div>
+        <div class="text-center">
+          <button class="px-4 py-2 text-white bg-gray-400 outline-2 outline-blue-500 outline-dashed">Button B</button>
+        </div>
+        <div class="text-center">
+          <button class="px-4 py-2 text-white bg-gray-400 outline-2 outline-blue-500 outline-dotted">Button C</button>
+        </div>
+        <div class="text-center">
+          <button class="px-4 py-2 text-white bg-gray-400 outline-2 outline-blue-500 outline-double">Button D</button>
+        </div>
+      </div>
+    </section>
+    <!-- borders end -->
+
+    <!-- filters -->
+    <section id="filters">
+      <div class="w-full bg-red-300 shadow-lg">
+        <div class="flex justify-center items-center p-5">
+          <h1 class="text-2xl font-bold">Filters</h1>
+        </div>
+      </div>
+      <div class="flex space-x-10 justify-center my-5">
+        <div class="blur-none bg-gray-200 p-4 mb-4">
+          <p>Haiiiiiiiiiiii</p>
+        </div>
+        <div class="blur-sm bg-gray-200 p-4 mb-4">
+          <p>Haiiiiiiiiiiii</p>
+        </div>
+        <div class="blur-lg bg-gray-200 p-4 mb-4">
+          <p>Haiiiiiiiiiiii</p>
+        </div>
+        <div class="blur-2xl bg-gray-200 p-4 mb-4">
+          <p>Haiiiiiiiiiiii</p>
+        </div>
+      </div>
+      <div class="flex space-x-10 justify-center my-5">
+        <div class="drop-shadow-md bg-white p-4 mb-4">
+          <p>Haiiiiiiiiiiii</p>
+        </div>
+        <div class="drop-shadow-lg bg-white p-4 mb-4">
+          <p>Haiiiiiiiiiiii</p>
+        </div>
+        <div class="drop-shadow-xl bg-white p-4 mb-4">
+          <p>Haiiiiiiiiiiii</p>
+        </div>
+        <div class="drop-shadow-2xl bg-white p-4 mb-4">
+          <p>Haiiiiiiiiiiii</p>
+        </div>
+      </div>
+    </section>
+    <!-- filters end -->
+
+    <!-- table -->
+    <section id="table">
+      <div class="w-full bg-red-300 shadow-lg">
+        <div class="flex justify-center items-center p-5">
+          <h1 class="text-2xl font-bold">Table</h1>
+        </div>
+      </div>
+      <div class="w-1/2 mx-auto my-5">
+        <table class="border-collapse border border-slate-500 w-full text-sm text-left">
+          <thead>
+            <tr>
+              <th class="border border-slate-600 px-4 py-2 bg-gray-100">Name</th>
+              <th class="border border-slate-600 px-4 py-2 bg-gray-100">Clan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-slate-700 px-4 py-2">Seungcheol</td>
+              <td class="border border-slate-700 px-4 py-2">Choi</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-700 px-4 py-2">Mingyu</td>
+              <td class="border border-slate-700 px-4 py-2">Kim</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-700 px-4 py-2">Wonwoo</td>
+              <td class="border border-slate-700 px-4 py-2">Jeon</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="w-1/2 mx-auto my-5">
+        <table class="border-separate border-spacing-2 border border-slate-500 w-full text-sm text-left">
+          <thead>
+            <tr>
+              <th class="border border-slate-600 px-4 py-2 bg-gray-100">Name</th>
+              <th class="border border-slate-600 px-4 py-2 bg-gray-100">Clan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-slate-700 px-4 py-2">Seungcheol</td>
+              <td class="border border-slate-700 px-4 py-2">Choi</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-700 px-4 py-2">Mingyu</td>
+              <td class="border border-slate-700 px-4 py-2">Kim</td>
+            </tr>
+            <tr>
+              <td class="border border-slate-700 px-4 py-2">Wonwoo</td>
+              <td class="border border-slate-700 px-4 py-2">Jeon</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="w-1/2 mx-auto my-5">
+        <table class="table-auto w-full text-left text-sm">
+          <thead>
+            <tr>
+              <th class="px-4 py-2 bg-gray-100 border-b-2 border-gray-200">Song</th>
+              <th class="px-4 py-2 bg-gray-100 border-b-2 border-gray-200">Artist</th>
+              <th class="px-4 py-2 bg-gray-100 border-b-2 border-gray-200">Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="px-4 py-2 border-b border-gray-200">Very Nice</td>
+              <td class="px-4 py-2 border-b border-gray-200">Seventeen</td>
+              <td class="px-4 py-2 border-b border-gray-200">2016</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b border-gray-200">Pretty u</td>
+              <td class="px-4 py-2 border-b border-gray-200">Seventeen</td>
+              <td class="px-4 py-2 border-b border-gray-200">2016</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b border-gray-200">Maestro</td>
+              <td class="px-4 py-2 border-b border-gray-200">Seventeen</td>
+              <td class="px-4 py-2 border-b border-gray-200">2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="w-1/2 mx-auto my-5">
+        <table class="table-auto w-full text-left text-sm">
+          <caption class="caption-top text-lg font-semibold mb-4 text-center">
+            Table 3.1: Seventeen Member.
+          </caption>
+          <thead>
+            <tr>
+              <th class="px-4 py-2 bg-gray-100 border-b-2 border-gray-200">Name</th>
+              <th class="px-4 py-2 bg-gray-100 border-b-2 border-gray-200">Unit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="px-4 py-2 border-b border-gray-200">Seungcheol</td>
+              <td class="px-4 py-2 border-b border-gray-200">Hip-hop</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b border-gray-200">Vernon</td>
+              <td class="px-4 py-2 border-b border-gray-200">Hip-hop</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 border-b border-gray-200">Joshua</td>
+              <td class="px-4 py-2 border-b border-gray-200">Vocal</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- table end -->
+
+    <!-- transform -->
+    <section id="transform">
+      <div class="w-full bg-red-300 shadow-lg">
+        <div class="flex justify-center items-center p-5">
+          <h1 class="text-2xl font-bold">Transform</h1>
+        </div>
+      </div>
+      <div class="p-5 w-full">
+        <div class="flex my-5 gap-5 justify-center">
           <img class="scale-75 w-40" src="/src/image/foto-grup.jpg" />
           <img class="scale-100 w-40" src="/src/image/foto-grup.jpg" />
           <img class="scale-125 w-40" src="/src/image/foto-grup.jpg" />
         </div>
-        <div class="container flex mt-20 gap-5">
-            <img class="rotate-0 w-40" src="/src/image/foto-grup.jpg" />
-            <img class="rotate-45 w-40" src="/src/image/foto-grup.jpg" />
-            <img class="rotate-90 w-40" src="/src/image/foto-grup.jpg" />
-            <img class="rotate-180 w-40" src="/src/image/foto-grup.jpg" />
+        <div class="flex mt-20 gap-5 justify-center">
+          <img class="rotate-0 w-40" src="/src/image/foto-grup.jpg" />
+          <img class="rotate-45 w-40" src="/src/image/foto-grup.jpg" />
+          <img class="rotate-90 w-40" src="/src/image/foto-grup.jpg" />
+          <img class="rotate-180 w-40" src="/src/image/foto-grup.jpg" />
         </div>
-        <h1 class="text-xl font-bold">Table</h1>
-        
-        <h1 class="text-xl font-bold">Transitions</h1>
-        <h1 class="text-xl font-bold">Filters</h1>
-        <h1 class="text-xl font-bold">Effects</h1>
-        <h1 class="text-xl font-bold">Typography</h1>
-        <h1 class="text-xl font-bold">Sizing</h1>
-        <h1 class="text-xl font-bold">Layouts</h1>
-        <h1 class="text-xl font-bold">Flexbox</h1>
-        <h1 class="text-xl font-bold">Border</h1>
+        <div class="flex mt-20 gap-5 justify-center">
+          <img class="origin-center rotate-45 w-40" src="/src/image/foto-grup.jpg" />
+          <img class="origin-top-left rotate-12 w-40" src="/src/image/foto-grup.jpg" />
+          <img class="origin-bottom -rotate-12 w-40" src="/src/image/foto-grup.jpg" />
+        </div>
+        <div class="flex mt-20 gap-5 justify-center">
+          <img class="skew-y-0 w-40" src="/src/image/foto-grup.jpg" />
+          <img class="skew-y-3 w-40" src="/src/image/foto-grup.jpg" />
+          <img class="skew-y-6 w-40" src="/src/image/foto-grup.jpg" />
+          <img class="skew-y-12 w-40" src="/src/image/foto-grup.jpg" />
+        </div>
       </div>
     </section>
+    <!-- trandform end -->
   </body>
 </html>

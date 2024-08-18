@@ -12,19 +12,19 @@
       <div class="flex justify-center items-center p-5">
         <ul class="flex gap-5">
           <li>
-            <a href="#" class="hover:font-bold font-medium">Home</a>
+            <a href="#home" class="hover:font-bold font-medium">Home</a>
           </li>
           <li>
-            <a href="#" class="hover:font-bold font-medium">Team</a>
+            <a href="#team" class="hover:font-bold font-medium">Team</a>
           </li>
           <li>
-            <a href="#" class="hover:font-bold font-medium">Discography</a>
+            <a href="#discography" class="hover:font-bold font-medium">Discography</a>
           </li>
           <li>
             <a href="#" class="hover:font-bold font-medium">Gallery</a>
           </li>
           <li>
-            <a href="#" class="hover:font-bold font-medium">Video</a>
+            <a href="#video" class="hover:font-bold font-medium">Video</a>
           </li>
         </ul>
       </div>
@@ -32,37 +32,47 @@
     <!-- Navbar end -->
 
     <!-- Home -->
-    <section class="container my-5 p-5 flex flex-wrap justify-between mx-auto">
+    <div id="home" class="container my-5 p-5 flex flex-wrap justify-between mx-auto">
       <div class="flex flex-col space-y-4 lg:max-w-screen-lg p-5">
         <h1 class="text-3xl font-bold">Say The Name!</h1>
-        <h1 class="text-xl font-bold bg-gradient-to-r from-blue-400 to-red-400 text-transparent bg-clip-text">Seventeen</h1>
-        <p class="text-wrap">SEVENTEEN is a mega group with 13 members and 3 units, meaning that they form a team. Preparing for their debut with a differentiated promotion that introduced a pre-debut system and opened up their pre-debut training process to the public, SEVENTEEN made their debut in May 2015 with their first mini album “17 CARAT” and quickly became super rookies. Three different units (hip-hop team, vocal team, and performance team) coexist in the group, and each team participates in the overall production of the album, living up to the label of self-produced idols. Through music and performances that only SEVENTEEN can show, the group has gone from being labeled as super rookies, self-produced idols, and young idols immediately after their debut, to now being the biggest idols in Korea and abroad, further solidifying their position in the music industry.</p>
+        <hr class="w-48 h-1 my-4 bg-gradient-to-r from-blue-300 to-red-300 border-0 rounded" />
+        <h1 class="text-xl font-bold">Seventeen</h1>
+        <p class="text-wrap">
+          SEVENTEEN is a mega group with 13 members and 3 units, meaning that they form a team. Preparing for their debut with a differentiated promotion that introduced a pre-debut system and opened up their pre-debut training process to
+          the public, SEVENTEEN made their debut in May 2015 with their first mini album “17 CARAT” and quickly became super rookies. Three different units (hip-hop team, vocal team, and performance team) coexist in the group, and each team
+          participates in the overall production of the album, living up to the label of self-produced idols. Through music and performances that only SEVENTEEN can show, the group has gone from being labeled as super rookies, self-produced
+          idols, and young idols immediately after their debut, to now being the biggest idols in Korea and abroad, further solidifying their position in the music industry.
+        </p>
       </div>
       <div class="flex p-5">
         <img src="/src/image/foto-grup.jpg" class="w-96 rounded shadow-md" alt="foto ot13" />
       </div>
       <div class="p-5">
         <a href="https://pledis.co.kr/ko/artist/detail/seventeen/">
-          <button class="my-4 px-4 py-2 bg-blue-950 text-white font-bold rounded-lg shadow-lg">Website Seventeen</button>
+          <button class="my-4 px-4 py-2 bg-blue-950 text-white font-bold rounded-lg hover:shadow-lg">Website Seventeen</button>
         </a>
         <a href="belajar/tailwind.html">
-          <button class="my-4 px-4 py-2 bg-red-700 text-white font-bold rounded-lg shadow-lg">Lihat latihan</button>
+          <button class="my-4 px-4 py-2 bg-red-700 text-white font-bold rounded-lg hover:shadow-lg">Lihat latihan</button>
+        </a>
+        <a href="#">
+          <button class="my-4 px-4 py-2 bg-green-700 text-white font-bold rounded-lg hover:shadow-lg">Lihat web lain</button>
         </a>
       </div>
-    </section>
+    </div>
     <!-- Home end -->
 
     <!-- Team -->
-    <div class="bg-white py-24">
+    <div id="team" class="bg-white py-24">
       <div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 grid-cols-3">
         <div class="max-w-2xl">
           <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our Team</h2>
+          <hr class="w-48 h-1 my-4 bg-gradient-to-r from-blue-300 to-red-300 border-0 rounded" />
           <p class="mt-6 text-lg leading-8 text-gray-600">Say the name, Seventeen!</p>
         </div>
         <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="">
+              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="" />
               <div>
                 <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungcheol</h3>
                 <p class="text-sm font-semibold leading-6 text-indigo-600">Leader</p>
@@ -71,125 +81,171 @@
           </li>
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="">
+              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="" />
               <div>
-                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungcheol</h3>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Jeonghan</h3>
                 <p class="text-sm font-semibold leading-6 text-indigo-600">Team</p>
               </div>
             </div>
           </li>
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="">
+              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="" />
               <div>
-                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungcheol</h3>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Joshua</h3>
                 <p class="text-sm font-semibold leading-6 text-indigo-600">Team</p>
               </div>
             </div>
           </li>
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="">
+              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="" />
               <div>
-                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungcheol</h3>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Jun</h3>
                 <p class="text-sm font-semibold leading-6 text-indigo-600">Team</p>
               </div>
             </div>
           </li>
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="">
+              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="" />
               <div>
-                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungcheol</h3>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Hoshi</h3>
                 <p class="text-sm font-semibold leading-6 text-indigo-600">Team</p>
               </div>
             </div>
           </li>
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="">
+              <img class="h-16 w-16 rounded" src="/src/image/ww.png" alt="" />
               <div>
-                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungcheol</h3>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Wonwoo</h3>
                 <p class="text-sm font-semibold leading-6 text-indigo-600">Team</p>
               </div>
             </div>
           </li>
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="">
+              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="" />
               <div>
-                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungcheol</h3>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Woozi</h3>
                 <p class="text-sm font-semibold leading-6 text-indigo-600">Team</p>
               </div>
             </div>
           </li>
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="">
+              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="" />
               <div>
-                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungcheol</h3>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">The8</h3>
                 <p class="text-sm font-semibold leading-6 text-indigo-600">Team</p>
               </div>
             </div>
           </li>
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="">
+              <img class="h-16 w-16 rounded" src="/src/image/mg.png" alt="" />
               <div>
-                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungcheol</h3>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Mingyu</h3>
                 <p class="text-sm font-semibold leading-6 text-indigo-600">Team</p>
               </div>
             </div>
           </li>
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="">
+              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="" />
               <div>
-                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungcheol</h3>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">DK</h3>
                 <p class="text-sm font-semibold leading-6 text-indigo-600">Team</p>
               </div>
             </div>
           </li>
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="">
+              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="" />
               <div>
-                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungcheol</h3>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungkwan</h3>
                 <p class="text-sm font-semibold leading-6 text-indigo-600">Team</p>
               </div>
             </div>
           </li>
           <li>
             <div class="flex items-center gap-x-6">
-              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="">
+              <img class="h-16 w-16 rounded" src="/src/image/vn.png" alt="" />
               <div>
-                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Seungcheol</h3>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Vernon</h3>
+                <p class="text-sm font-semibold leading-6 text-indigo-600">Team</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 rounded" src="/src/image/sc.png" alt="" />
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Dino</h3>
                 <p class="text-sm font-semibold leading-6 text-indigo-600">Team</p>
               </div>
             </div>
           </li>
         </ul>
       </div>
-    </div> 
+    </div>
     <!-- Team end -->
 
     <!-- Discography -->
+    <div id="discography" class="container my-7 p-7">
+      <h1 class="text-3xl font-bold">Discography</h1>
+      <hr class="w-20 h-1 my-4 bg-gradient-to-r from-blue-300 to-red-300 border-0 rounded" />
+      <div class="mx-auto mt-5 flex justify-center items-center gap-5">
+        <div class="text-center">
+          <img class="h-72 w-72 rounded" src="/src/image/this-man.jpg" alt="album" />
+          <p class="text-wrap">정한 X 원우 1st Single Album 'THIS MAN'</p>
+        </div>
+        <div class="text-center">
+          <img class="h-72 w-72 rounded" src="/src/image/maestro.jpg" alt="album" />
+          <p class="text-wrap">SEVENTEEN (세븐틴) BEST ALBUM '17 IS RIGHT HERE'</p>
+        </div>
+        <div class="text-center">
+          <img class="h-72 w-72 rounded" src="/src/image/heaven.jpg" alt="album" />
+          <p class="text-wrap">SEVENTEEN (세븐틴) 11th Mini Album 'SEVENTEENTH HEAVEN'</p>
+        </div>
+      </div>
+      <div class="gap-5 flex justify-center mt-5">
+        <a href="#">
+          <button class="my-4 px-4 py-2 bg-blue-950 text-white font-bold rounded-lg hover:shadow-lg">Selengkapnya</button>
+        </a>
+      </div>
+    </div>
     <!-- Discography end -->
 
     <!-- Gallery -->
     <!-- Gallery end -->
 
     <!-- Video -->
-    <div class="container my-7 p-5">
-      <h1 class="text-xl font-bold">Video</h1>
+    <div id="video" class="container my-7 p-7">
+      <h1 class="text-3xl font-bold">Video</h1>
+      <hr class="w-20 h-1 my-4 bg-gradient-to-r from-blue-300 to-red-300 border-0 rounded" />
       <div class="mx-auto mt-5 flex justify-center gap-5">
         <iframe class="rounded aspect-video" width="400" height="225" src="https://www.youtube.com/embed/F2qZWD0F7rM"></iframe>
         <iframe class="rounded aspect-video" width="400" height="225" src="https://www.youtube.com/embed/F2qZWD0F7rM"></iframe>
         <iframe class="rounded aspect-video" width="400" height="225" src="https://www.youtube.com/embed/F2qZWD0F7rM"></iframe>
       </div>
     </div>
-           
+
     <!-- Video end -->
 
+    <!-- Footer -->
+    <footer class="bg-gray-400">
+      <div class="mx-auto w-full max-w-screen-xl p-5 py-6">
+        <div class="flex">
+          <a href="#" class="flex items-center">
+            <img />
+            <h1></h1>
+          </a>
+        </div>
+        <div></div>
+      </div>
+    </footer>
+    <!-- Footer end -->
   </body>
 </html>
